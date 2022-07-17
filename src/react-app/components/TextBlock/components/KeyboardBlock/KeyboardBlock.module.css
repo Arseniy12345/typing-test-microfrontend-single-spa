@@ -1,0 +1,41 @@
+.KeyboardBlock {
+  margin-top: 12px;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.KeyboardBlock__row {
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+}
+
+.KeyboardBlock__key {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  border: 1px solid;
+  border-radius: 4px;
+  font-size: 18px;
+}
+
+.KeyboardBlock__key_active {
+  background: rgb(172, 172, 172);
+}
+
+.KeyboardBlock__keySpace {
+  width: 280px;
+}
+
+.KeyboardBlock__keyEven {
+  color: #495af2;
+  border-color: #495af2;
+}
+
+.KeyboardBlock__keyOdd {
+  color: #a20bc0;
+  border-color: #a20bc0;
+}

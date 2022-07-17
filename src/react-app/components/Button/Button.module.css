@@ -1,0 +1,47 @@
+.Button {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 16px;
+  font-size: 14px;
+  color: white;
+}
+
+.Button__primary {
+  background: #495af2;
+}
+
+.Button__primary:hover {
+  background: #273ae3;
+  cursor: pointer;
+}
+
+.Button__primary:disabled {
+  background: #6b77ec;
+}
+
+.Button__secondary {
+  background: #a20bc0;
+}
+
+.Button__secondary:hover {
+  background: #84099c;
+  cursor: pointer;
+}
+
+.Button__secondary:disabled {
+  background: #c308e8;
+}
+
+.Button__default {
+  background: transparent;
+  border: 1px solid #495af2;
+}
+
+.Button__default:hover {
+  background: #808aeb;
+  cursor: pointer;
+}
+
+.Button__default:disabled {
+  border: 1px solid #a2abff;
+}
